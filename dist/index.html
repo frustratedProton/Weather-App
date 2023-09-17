@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+			integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+    <link rel="stylesheet" href="style.css">
+		<title>Odin Weather | Weather App</title>
+	</head>
+	<body>
+
+    <div class="main-container">
+      <header>
+        <form>
+          <div class="form-container">
+            <button class="submit-btn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+            <input type="text" name="search-city" id="search-city" placeholder="Search City">
+            <br>
+            <span class="error-msg"></span>
+          </div>
+        </form>
+      </header>
+
+      <div class="main-weather info">
+        <div class="general-info">
+          <p class="condition">Light Drizzle</p>
+          <h1 class="location">Delhi</h1>
+          <span class="degrees">27</span>
+        </div>
+
+        <div class="weather-details info">
+          <p class="feels-like">Feels Like: 30</p>
+          <p class="wind-mph">Wind: 5 MPH</p>
+          <p class="humidity">Humidity: 69</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="gifty">
+      <img class="weather-img" src="#">
+    </div>
+
+		<script src="main.js"></script>
+	</body>
+</html>
